@@ -9,7 +9,9 @@ gaze2world()
 vergenceDist()
 ### Yaw pitch and roll from quaternion
 quat2ypr()
-![Illustration of rotation axes for yaw pitch and roll](/docs/yaw_pitch_roll.png "Axes of rotation for yaw, pitch and roll")
+
+<img src="/docs/yaw_pitch_roll.png" width="300">
+
 Independent of the defined orientation of the coordinate system
 - yaw is the rotation around the vertical axis
 - pitch is the rotation around the transverse (lateral) axis
@@ -20,4 +22,4 @@ We follow the convention of yaw, pitch and roll as the [Tait-Bryan angles of an 
 - vertical axis y
 - forward axis z
 - transverse axis x.
-Therefore, the Tait-Bryan angles used for yaw, pitch and roll are y - x' - z'' (z-x-y as extrinisc rotation).
+Therefore, the Tait-Bryan angles used for yaw, pitch and roll are y - x' - z'' (z-x-y as extrinsic rotation).
