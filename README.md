@@ -1,5 +1,5 @@
-# 3d-track-n-gaze
-3D tracking and gaze analysis
+# 3d-gaze-inspector
+Analysis toolbox for 3d tracking and gaze data
 
 ## Functions
 ### Head-relative gaze to world gaze
