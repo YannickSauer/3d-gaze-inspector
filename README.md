@@ -1,5 +1,5 @@
-# 3d-gaze-inspector
-Analysis toolbox for 3d tracking and gaze data
+# GAZE3D
+Analysis toolbox for 3d tracking and gaze data, designed maily for VR tracking data.
 
 ## Functions
 ### Head-relative gaze to world gaze
