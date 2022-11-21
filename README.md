@@ -18,7 +18,7 @@ Analysis toolbox for 3d tracking and gaze data, designed mainly for VR tracking 
 - Camera/head quaternion
 
 
-### Functions
+## Functions
 #### Head-relative gaze to world gaze
 gaze2world()
 #### Cartesian gaze vec to spherical coordinates
