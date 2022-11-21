@@ -1,6 +1,25 @@
 # GAZE3D
 Analysis toolbox for 3d tracking and gaze data, designed mainly for VR tracking data.
 
+## Input data
+
+Eye tracking:
+-Left eye origin
+-Right eye origin
+-Left eye gaze vector
+-Right eye gaze vector
+
+Intersection with environment
+-Gaze hitpoint
+-Hitpoint object name
+
+Head tracking
+-Camera/head origin
+-Camera/head quaternion
+
+
+
+
 ## Functions
 ### Head-relative gaze to world gaze
 gaze2world()
