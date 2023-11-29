@@ -1,13 +1,30 @@
-# 3d-gaze-inspector
-Analysis toolbox for 3d tracking and gaze data
+# GAZE3D #
+Analysis toolbox for 3d tracking and gaze data, designed mainly for VR tracking data.
+
+### Input data ###
+
+#### Eye tracking: ####
+- Left eye origin
+- Right eye origin
+- Left eye gaze vector
+- Right eye gaze vector
+
+#### Intersection with environment ####
+- Gaze hitpoint
+- Hitpoint object name
+
+#### Head tracking ####
+- Camera/head origin
+- Camera/head quaternion
+
 
 ## Functions
-### Head-relative gaze to world gaze
+#### Head-relative gaze to world gaze
 gaze2world()
-### Cartesian gaze vec to spherical coordinates
-### Calculate vergence distance
+#### Cartesian gaze vec to spherical coordinates
+#### Calculate vergence distance
 vergenceDist()
-### Yaw pitch and roll from quaternion
+#### Yaw pitch and roll from quaternion
 quat2ypr()
 
 <img src="/docs/yaw_pitch_roll.png" width="300">
